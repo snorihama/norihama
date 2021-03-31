@@ -1,0 +1,173 @@
+@charset "UTF-8";
+
+/* 共通部分 */
+html {
+    
+}
+body{
+    font-size: 0;
+    font-family: "Tsukushi A Round Gothic", fot-tsukuardgothic-std, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #3B3B3B;
+    line-height: 1;
+}
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+}
+
+.mainpart {
+    font-size: 0;
+}
+
+.content {
+    font-size: 35px;
+    display: inline-block;
+    width: 1920px;
+    height: 1080px;
+    margin: 0px;
+    padding: 0px;
+}
+.page-header {
+    width: 1920px;
+    height: 540px;
+    background-image: linear-gradient(135deg, #6cbfce, #154671);
+}
+.page-title {
+    font-family: coquette, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 100px;
+    letter-spacing: 0.01em;
+    color: #FFFFF8;
+    text-align: center;
+    padding-top: 208px;
+}
+
+
+.self-intro {
+    background-color: #EBFCFF;
+    display: flex;
+}
+img.self-photo {
+    height: 654px;
+    width: 654px;
+    margin-top: 217px;
+    margin-left: 296px;
+}
+.intro-name {
+    font-size: 50px;
+    margin-left: 155px;
+    margin-top: 192px;
+    margin-bottom: 0px;
+}
+.eng-name {
+    font-size: 35px;
+    font-family: coquette, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin-left: 208px;
+    margin-top: 4px;
+    display: block;
+}
+.intro-jp {
+    font-size: 32px;
+    font-weight: 250;
+    margin-top: 62px;
+    margin-left: 229px;
+    margin-bottom: 25px;
+}
+.intro-eng {
+    font-size: 32px;
+    font-family: "Objektiv Mk2", objektiv-mk2, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    padding-top: 10px;
+    margin-left: 300px;
+}
+
+
+#univ-life {
+    color: #efefef;
+}
+.univ-bg {
+    background-image: url("./../images/University_Life_BG.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+.title-white {
+    font-size: 80px;
+    font-family: "Objektiv Mk2", objektiv-mk2, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    padding-top: 50px;
+    margin-right: 223.5px;
+    margin-left: 223.5px;
+    padding-left: 52.5px;
+    padding-bottom: 25px;
+    border-bottom: 3px solid #EFEFEF;
+}
+.univ1 {
+    margin-top: 72.5px;
+    margin-left: 633px;
+    line-height: 70px;
+}
+.univ2 {
+    margin-top: 43px;
+    margin-left: 633px;
+}
+.univ2 span{
+    color: #FDF751;
+}
+.riten-note {
+    margin-top: 65.4px;
+    margin-left: 633px;
+}
+.riten-info {
+    margin-top: 30px;
+    margin-left: 831px;
+}
+
+
+#club {
+    color: #393939
+}
+.club-bg {
+    background-image: url("./../images/Club_Activities_BG.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+.title-black {
+    font-size: 80px;
+    font-family: "Objektiv Mk2", objektiv-mk2, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    padding-top: 50px;
+    margin-right: 223.5px;
+    margin-left: 223.5px;
+    padding-left: 72.5px;
+    padding-bottom: 25px;
+    border-bottom: 3px solid #393939;
+}
+.club-info {
+    margin-top: 52.5px;
+    margin-left: 633px;
+    line-height: 70px;
+}
+.club-info span{
+    color: #953145;
+    font-weight: 600;
+}
+.murajuku-note {
+    margin-top: 65.4px;
+    margin-left: 633px;
+}
+.mura-info {
+    margin-top: 30px;
+    margin-left: 777px;
+}
